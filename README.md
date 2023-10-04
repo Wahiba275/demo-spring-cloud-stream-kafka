@@ -28,32 +28,51 @@ In EDA, these tools help different parts of your software talk to each other eff
 
 # Starting KAFKA Server
 ## Start Zookeeper
-`start bin\windows\zookeeper-server-start.bat config/zookeeper.properties` <br>
+
+`start bin\windows\zookeeper-server-start.bat config/zookeeper.properties`
+<br>
 <img src="/Kafka/Zookeeper.PNG" />
+
 ## Start Kafka Server 
-`start bin\windows\kafka-server-start.bat config/server.properties`<br>
+`start bin\windows\kafka-server-start.bat config/server.properties`
+<br>
 <img src="/Kafka/kafka.PNG" />
 # Testing with Kafka Tools
 ## KAFKA Console 
-1. Consuming messages by subscribing to a topic
+1. Consuming messages by subscribing to a topic<br>
 `start bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic R1`
-2. Publishing messages to topics
-`start bin\windows\kafka-console-producer.bat --bootstrap-server localhost:9092 --topic R2`<br>
+<br>
+3. Publishing messages to topics<br>
+`start bin\windows\kafka-console-producer.bat --bootstrap-server localhost:9092 --topic R2`
+<br>
+
 <img src="/Kafka/consoleKafka.PNG" />
+
 ## Rest Controller with Stream Bridge
-<img src="/Kafka/publishRestController.PNG" />
-<img src="/Kafka/Cons.PNG" />
+
+<img src="/Kafka/publishRestController.PNG" /><br>
+<img src="/Kafka/Cons.PNG" /><br>
 <img src="/Kafka/cons3.PNG" />
+
 # Cunsomer KAFKA
-<img src="/Kafka/PageEventConsumer.PNG" />
+
+<img src="/Kafka/PageEventConsumer.PNG" /><br>
 <img src="/Kafka/pageCons.PNG" />
+
 # Supplier KAFKA
-<img src="/Kafka/supplier1.PNG" />
+
+<img src="/Kafka/supplier1.PNG" /><br>
 <img src="/Kafka/supp.PNG" />
+
 # Function KAFKA
-<img src="/Kafka/f.PNG" />
 
+<img src="/Kafka/f.PNG" /><br>
+<img src="/Kafka/f2.PNG" />
 
+# Kafka Stream 
+
+<img src="/Kafka/KafkaStream.PNG" /><br>
+<img src="/Kafka/hhhhh.PNG" />
 
 
 

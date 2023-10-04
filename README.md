@@ -39,7 +39,7 @@ In EDA, these tools help different parts of your software talk to each other eff
 
 # Testing with Kafka Tools
 ## KAFKA Console 
-1. Consuming messages by subscribing to a topic
+1. Consuming messages by subscribing to a topic<br>
 `start bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic R1`
 2. Publishing messages to topics<br>
 `start bin\windows\kafka-console-producer.bat --bootstrap-server localhost:9092 --topic R2`
@@ -47,7 +47,7 @@ In EDA, these tools help different parts of your software talk to each other eff
 ![Image Alt Text](/Kafka/consoleKafka.PNG)
 
 ## Rest Controller with Stream Bridge
-![Image Alt Text](/publishRestController.PNG)
+![Image Alt Text](/Kafka/publishRestController.PNG)
 
 ![Image Alt Text](/Kafka/Cons.PNG)
 

@@ -58,7 +58,11 @@ In EDA, these tools help different parts of your software talk to each other eff
 
    `docker exec --interactive --tty broker kafka-console-producer --bootstrap-server broker:9092 --topic R2`
 
-   ![Image Alt Text](/Kafka/docker-compose.PNG)
+   ![Image Alt Text](/Kafka/docker-compose1.PNG)
+
+    ![Image Alt Text](/Kafka/docker-console1.PNG)
+
+    ![Image Alt Text](/Kafka/docker-console2.PNG)
    
 <h2 id="rest-controller-with-stream-bridge">Rest Controller with Stream Bridge</h2>
 

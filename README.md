@@ -33,7 +33,9 @@ In EDA, these tools help different parts of your software talk to each other eff
 `start bin\windows\zookeeper-server-start.bat config/zookeeper.properties`
 
 ![Image Alt Text](/Kafka/Zookeeper.PNG)
+
 <h2 id="start-kafka-server">Start Kafka Server</h2>
+
 `start bin\windows\kafka-server-start.bat config/server.properties`
 
 ![Image Alt Text](/Kafka/kafka.PNG)

@@ -50,6 +50,17 @@ In EDA, these tools help different parts of your software talk to each other eff
 `start bin\windows\kafka-console-producer.bat --bootstrap-server localhost:9092 --topic R2`
 
 ![Image Alt Text](/Kafka/consoleKafka.PNG)
+
+3. Docker Compose
+   
+   `docker-compose up`
+
+   `docker exec --interactive --tty broker kafka-console-consumer --bootstrap-server broker:9092 --topic R2`
+
+   `docker exec --interactive --tty broker kafka-console-producer --bootstrap-server broker:9092 --topic R2`
+
+   ![Image Alt Text](/Kafka/docker-compose.PNG)
+   
 <h2 id="rest-controller-with-stream-bridge">Rest Controller with Stream Bridge</h2>
 ![Image Alt Text](/Kafka/publishRestController.PNG)
 

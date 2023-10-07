@@ -18,7 +18,6 @@
     <li><a href="#function-kafka">Function</a></li>
     <li><a href="#kafka-stream">Kafka Stream</a></li>
   </ul>
-  <li><a href="#conclusion">Conclusion</a></li>
 </ul>
 
 <h1 id="introduction">Introduction</h1>
@@ -62,6 +61,7 @@ In EDA, these tools help different parts of your software talk to each other eff
    ![Image Alt Text](/Kafka/docker-compose.PNG)
    
 <h2 id="rest-controller-with-stream-bridge">Rest Controller with Stream Bridge</h2>
+
 ![Image Alt Text](/Kafka/publishRestController.PNG)
 
 ![Image Alt Text](/Kafka/Cons.PNG)
@@ -91,10 +91,6 @@ In EDA, these tools help different parts of your software talk to each other eff
 ![Image Alt Text](/Kafka/KafkaStream.PNG)
 
 ![Image Alt Text](/Kafka/hhhhh.png)
-
-<h1 id="conclusion">Conclusion</h1>
-
-
 
 
 
